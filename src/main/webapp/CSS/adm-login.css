@@ -1,0 +1,21 @@
+.log{
+    margin-top: 260px;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin: 0;
+    padding-top: 0;
+}
+.box{
+    text-align: center;
+}
+.dl{
+    width: 80px;
+    size: 30px;
+}
+.zc{
+    margin: 0 0 0 30px;
+}

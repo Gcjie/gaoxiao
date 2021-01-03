@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员登录</title>
+    <link href="CSS/adm-login.css" rel="stylesheet" type="text/css">
+    <style>
+        body{
+            background-image: url("IMAGE/shanshui.jpg");
+        }
+    </style>
+</head>
+<body>
+<div class="log">
+    <h1>管理员|登录</h1>
+</div>
+
+<div class="box">
+    <form action="AdminLoginServlet" method="post">
+    <div>
+        账号：<input type="text" name="username" placeholder="请输入用户名">
+    </div>
+    <br>
+    <div>
+        密码：<input type="password" name="adm-password" placeholder="请输入密码">
+    </div>
+    <br>
+
+    <input type="submit" class="dl" value="登录">
+    <button formaction="adm-register.jsp">注册新账号</button>
+    </form>
+
+</div>
+
+</body>
+</html>

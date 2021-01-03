@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改密码</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="CSS/font.css">
+    <link rel="stylesheet" href="CSS/xadmin.css">
+    <script src="lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="JS/xadmin.js"></script>
+</head>
+<style rel="stylesheet" type="text/css">
+    body{
+        text-align: center;
+    }
+    .but{
+        margin: 20px;
+    }
+    .xx{
+        margin: 10px;
+    }
+</style>
+<body>
+<form action="UpdatePassServlet" method="post">
+    <div class="xx">
+        <span class="x-red">*</span>旧密码
+        <div class="layui-input-inline">
+            <input type="text" name="oldPass" required="" lay-verify="phone" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="xx">
+        <span class="x-red">*</span>新密码
+        <div class="layui-input-inline">
+            <input type="text" name="newPass" required="" lay-verify="phone" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="but">
+        <button class="layui-btn">修改</button></div>
+    </div>
+</form>
+</body>
+</html>

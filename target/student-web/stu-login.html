@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生登录</title>
+    <link href="CSS/stu-login.css" rel="stylesheet" type="text/css">
+    <style>
+        body{
+            background-image: url("IMAGE/shanshui.jpg");
+        }
+    </style>
+</head>
+<body>
+<div class="log">
+    <h1>学生|登录</h1>
+</div>
+
+<div class="box">
+
+    <form action="StudentLoginServlet" method="post">
+        学号：<input type="text" name="num" placeholder="请输入学号" class="name"><br>
+        密码：<input type="password" name="stu-password" placeholder="请输入密码" class="password"><br>
+        <div class="last">
+            <input type="submit" value="登录" class="dl">
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>

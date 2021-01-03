@@ -1,0 +1,39 @@
+body{
+    color: red;
+    font-size: 50px;
+}
+.log{
+    margin-top: 260px;
+    text-align: center;
+}
+h1{
+    color: blue;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.box{
+    margin: 10px;
+    text-align: center;
+}
+.name{
+    border: 1px solid #eee;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+.password{
+    border: 1px solid #eee;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+.last{
+    margin: 20px;
+}
+.dl{
+    width: 200px;
+    font-size: 40px;
+    margin: 30px;
+}
